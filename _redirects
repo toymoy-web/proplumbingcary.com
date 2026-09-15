@@ -1,0 +1,5 @@
+# No redirect rules needed. Cloudflare Pages resolves clean/extensionless
+# URLs and slug/index.html directory routing natively. Do not add
+# .html -> clean-URL rules or slash-forcing rules here; mixing 200
+# rewrites with 301s for the same paths causes ERR_TOO_MANY_REDIRECTS
+# loops on preview deploys (*.pages.dev / staging subdomains).

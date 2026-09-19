@@ -59,7 +59,8 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .cta-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:24px}
 .trustrow{display:flex;gap:22px;flex-wrap:wrap;color:var(--gray);font-size:13.5px;font-weight:600}
 .trustrow span:before{content:"\2713 ";color:var(--teal);font-weight:800}
-.heroart{position:relative;height:400px;border-radius:28px;background:linear-gradient(150deg,var(--teal) 0%,#0C8888 60%,var(--navy) 100%);overflow:hidden;box-shadow:0 30px 60px rgba(10,166,166,.25)}
+.heroart{position:relative;height:400px;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px rgba(10,166,166,.25)}
+.heroart-img{width:100%;height:100%;object-fit:cover;display:block}
 .heroart .blob{position:absolute;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.08)}
 .b1{top:-60px;right:-60px}.b2{bottom:-80px;left:-40px;width:180px;height:180px}
 .statcard{position:absolute;background:#fff;border-radius:16px;padding:16px 18px;box-shadow:0 16px 34px rgba(0,0,0,.18)}
@@ -138,6 +139,9 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .also-serving{margin-top:18px;color:var(--gray);font-size:14.5px}
 .foot-sub{margin-top:8px}
 footer .contact-hours{margin-top:6px}
+.foot-social{display:flex;flex-wrap:wrap;gap:10px 14px;margin-top:14px}
+.foot-social a{font-size:12.5px;font-weight:600;color:var(--gray);text-decoration:none}
+.foot-social a:hover{color:var(--teal-d)}
 
 /* inner pages (service/location) */
 .pagehead{background:var(--soft);padding:48px 0}
@@ -161,6 +165,8 @@ footer .contact-hours{margin-top:6px}
 .herocall .lbl{color:var(--gray);font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:700}
 .herocall .num{font-family:'Plus Jakarta Sans';font-weight:800;font-size:24px;color:var(--navy);margin:6px 0 12px}
 .twocol{display:grid;grid-template-columns:1fr 330px;gap:40px;align-items:start}
+.content-photo{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:20px;box-shadow:0 20px 44px rgba(15,42,61,.12)}
+@media(max-width:860px){.content-photo{margin-top:24px}}
 .sidecard{background:var(--navy);color:#fff;border-radius:20px;padding:26px;position:sticky;top:96px}
 .sidecard h3{font-size:19px;margin-bottom:6px}
 .sidecard p{color:#9FBAC4;font-size:14px;margin-bottom:14px}
